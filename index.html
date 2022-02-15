@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>dev.finances$</title>
+    <title>dev.finance$</title>
   </head>
 
   <body>
@@ -28,7 +28,7 @@
               srcset=""
             />
           </h3>
-          <p>R$ 5.000,00</p>
+          <p id="incomeDisplay">R$ 0,00</p>
         </div>
 
         <div class="card">
@@ -40,7 +40,7 @@
               srcset=""
             />
           </h3>
-          <p>R$ 2.000,00</p>
+          <p id="expenseDisplay">R$ 0,00</p>
         </div>
 
         <div class="card total">
@@ -52,7 +52,7 @@
               srcset=""
             />
           </h3>
-          <p>R$ 3.000,00</p>
+          <p id="totalDisplay">R$ 0,00</p>
         </div>
       </section>
 
@@ -70,44 +70,7 @@
               <th></th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td class="description">Luz</td>
-              <td class="expense">- R$ 500,00</td>
-              <td class="date">23/01/2021</td>
-              <td>
-                <img
-                  src="assets/icons/minus.svg"
-                  alt="Remover transação"
-                  srcset=""
-                />
-              </td>
-            </tr>
-            <tr>
-              <td class="description">Criação de website</td>
-              <td class="income">R$ 5000,00</td>
-              <td class="date">23/01/2021</td>
-              <td>
-                <img
-                  src="assets/icons/minus.svg"
-                  alt="Remover transação"
-                  srcset=""
-                />
-              </td>
-            </tr>
-            <tr>
-              <td class="description">Internet</td>
-              <td class="expense">- R$ 200,00</td>
-              <td class="date">23/01/2021</td>
-              <td>
-                <img
-                  src="assets/icons/minus.svg"
-                  alt="Remover transação"
-                  srcset=""
-                />
-              </td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
       </section>
     </main>
@@ -116,7 +79,7 @@
       <div class="modal">
         <div class="form">
           <h2>Nova transação</h2>
-          <form>
+          <form id="form">
             <div class="input-group">
               <label class="sr-only" for="description">Descrição</label>
               <input
@@ -131,6 +94,7 @@
               <label class="sr-only" for="amount">Valor</label>
               <input
                 type="number"
+                step=".01"
                 id="amount"
                 name="amount"
                 placeholder="0,00"
@@ -163,7 +127,7 @@
     </div>
 
     <footer>
-      <p>dev.finances$</p>
+      <p>2022 - dev.finance$</p>
     </footer>
 
     <script src="assets/js/scripts.js"></script>

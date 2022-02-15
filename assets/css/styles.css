@@ -198,6 +198,10 @@ td.expense {
   color: var(--red);
 }
 
+td img {
+  cursor: pointer;
+}
+
 /* === Modal === */
 .modal-overlay {
   display: flex;
