@@ -12,7 +12,6 @@
 </p>
 
 <p align="center">
-    <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=5BAA45&labelColor=485B43">
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/Almeida154/devfinances?color=5BAA45&labelColor=485B43">
 </p>
 
