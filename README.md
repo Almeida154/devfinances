@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="devfinances" src=".github/devfinances-mockup.png" width="100%">
+  <img alt="devfinances" src=".github/dev.finances-mockup.png" width="100%">
 </p>
 
 ### 🚀 Tecnologias
