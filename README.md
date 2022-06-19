@@ -16,14 +16,13 @@
 </p>
 
 <p align="center">
-  <img alt="devfinances" src=".github/dev.finances-mockup.png" width="60%">
+  <img alt="devfinances" src=".github/dev.finances-mockup.png" width="35%">
 </p>
 
 ### 🚀 Tecnologias
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
-- [SASS](https://sass-lang.com/)
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/)
 
 <br>
